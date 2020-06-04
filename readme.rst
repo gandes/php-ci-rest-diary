@@ -30,21 +30,12 @@ Setup Database:
 4. Masuk ke directori ```application/config/database.php```
 5. Sesuaikan konfigurasi sesuai dengan yang diinstall, **default** (host: localhost, username: root, password:<kosong>, database:diary_db)
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
-
 
 *******************
 API Dokumentasi
 *******************
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+**[POST] /auth/register** :  ```/auth/register?username=asd&email=afsdf%40ga.com&password=sdggg&fullname=gagaga&birthday=2020-02-05```
 
 
-
-/auth/register => asdasd
-
-**Example :** `<http://localhost/diary/index.php/diary/get_all>`
+***Example :*** `<http://localhost/diary/index.php/diary/get_all>`
