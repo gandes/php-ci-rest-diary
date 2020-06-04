@@ -35,7 +35,10 @@ Setup Database:
 API Dokumentasi
 *******************
 
-**[POST] /auth/register** :  ```/auth/register?username=asd&email=afsdf%40ga.com&password=sdggg&fullname=gagaga&birthday=2020-02-05```
+**[POST] Register** :  ```/auth/register?username=asd&email=afsdf%40ga.com&password=sdggg&fullname=gagaga&birthday=2020-02-05```
+**[POST] Get All Diary** :  ```/diary/get_all?user_id=6&token=$2y$10$7Sc4hvPKtPiMpXHsEuxudOKvKti0S48J7RgCGMQg1Ncq4QJWGyBhS```
+**[POST] Get Quartal Diary** :  ```/diary/get_all?user_id=6&token=$2y$10$7Sc4hvPKtPiMpXHsEuxudOKvKti0S48J7RgCGMQg1Ncq4QJWGyBhS&year=2020&quartal=Q2```
+**[POST] Create Diary** :  ```/diary/create?user_id=6&diary=Post%202&diary_date=2020-06-06&token=$2y$10$7Sc4hvPKtPiMpXHsEuxudOKvKti0S48J7RgCGMQg1Ncq4QJWGyBhS```
 
 
 ***Example :*** `<http://localhost/diary/index.php/diary/get_all>`
