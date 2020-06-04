@@ -7,12 +7,12 @@ Rest API ini mengenai Diari.
 *******************
 How to Deploy
 *******************
-###Requirement:###
+### Requirement: ###
 
 1. CodeIgniter 3 di `CodeIgniter Downloads <https://codeigniter.com/download>`_.
 2. XAMPP (PHP >=5.6 or 7.2.*) di _`XAMPP Downloads <https://www.apachefriends.org/download.html>`_.
 
-###Run:###
+### Run:# ##
 
 1. Running XAMPP
 
