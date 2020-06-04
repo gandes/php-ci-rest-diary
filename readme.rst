@@ -7,57 +7,25 @@ Rest API ini mengenai Diari.
 *******************
 How to Deploy
 *******************
-Install:
-1. CodeIgniter 3 `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Requirement:
+1. CodeIgniter 3 di `CodeIgniter Downloads <https://codeigniter.com/download>`_.
+2. XAMPP (PHP >=5.6 or 7.2.*) di _`XAMPP Downloads <https://www.apachefriends.org/download.html>`_.
 
-**************************
-Changelog and New Features
-**************************
+Run:
+1. Running XAMPP
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Setup Projek:
+1. Masuk ke direktori **htdocs** instalasi XAMPP, biasanya di ```C:/xampp/htdocs```
+2. Clone atau Download repository ini ```git clone https://github.com/gandes/php-ci-rest-diary.git```
+3. Ubah nama folder sesuai yang diinginkan
+
+Setup Database:
+1. Buka url ```http://localhost/phpmyadmin```pada browser
+2. Buat database ```diary_db```
+3. Import database ```db/diary_db.sql``` dan klik *Go*
+4. Masuk ke directori ```application/config/database.php```
+5. Sesuaikan konfigurasi sesuai dengan yang diinstall, **default** (host: localhost, username: root, password:<kosong>, database:diary_db)
 
 *******************
-Server Requirements
+API Dokumentasi
 *******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
