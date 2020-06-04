@@ -9,8 +9,8 @@ How to Deploy
 *******************
 Requirement: 
 
-1. CodeIgniter 3 di `CodeIgniter Downloads <https://codeigniter.com/download>`_.
-2. XAMPP (PHP >=5.6 or 7.2.*) di _`XAMPP Downloads <https://www.apachefriends.org/download.html>`_.
+1. CodeIgniter 3 di `CodeIgniter Downloads <https://codeigniter.com/download>`.
+2. XAMPP (PHP >=5.6 or 7.2.*) di `XAMPP Downloads <https://www.apachefriends.org/download.html>`.
 
 Run:
 
@@ -24,7 +24,7 @@ Setup Projek:
 
 Setup Database:
 
-1. Buka url ```http://localhost/phpmyadmin```pada browser
+1. Buka url ```http://localhost/phpmyadmin``` pada browser
 2. Buat database ```diary_db```
 3. Import database ```db/diary_db.sql``` dan klik *Go*
 4. Masuk ke directori ```application/config/database.php```
@@ -33,3 +33,7 @@ Setup Database:
 *******************
 API Dokumentasi
 *******************
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
